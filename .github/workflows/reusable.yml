@@ -10,6 +10,5 @@ jobs:
                date
                hostname
                whoami
-               free -gh .
-               top | grep -10 
+               
 
