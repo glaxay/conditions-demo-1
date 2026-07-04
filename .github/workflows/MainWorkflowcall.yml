@@ -1,4 +1,4 @@
-name: reusable main
+name: use-reusable main
 on:
   push:
     branches:
