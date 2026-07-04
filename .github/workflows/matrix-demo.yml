@@ -10,10 +10,12 @@ jobs:
              operating-system: [ubuntu-latest, windows-latest]
              include:
                 - node-version: 18
-                  operating-system: unbuntu-latest 
+                  operating-system: ubuntu-latest 
              exclude:
                 - node-version: 12
                   operating-system: windows-latest
+                - node-version: 12
+                  operating-system: ubuntu-latest
 
         runs-on: ${{matrix.operating-system}}
         steps:
