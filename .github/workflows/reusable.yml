@@ -1,0 +1,15 @@
+name: Reusable workflow
+on: workflow_call
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Display output
+              run: |
+               echo "Deploying code"
+               date
+               hostname
+               whoami
+               free -gh .
+               top | grep -10 
+
